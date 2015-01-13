@@ -1,0 +1,32 @@
+{
+  "name": "Sample-App",
+  "version": "1.0.0",
+  "description": "Sample Application",
+  "keywords": [
+    "Node.js",
+    "application"
+  ],
+  "author": {
+    "name": "José Mota",
+    "email": "jedmota@gmail.com"
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "express": "~3.4.4",
+    "mongodb": "~1.3.6"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "app.js"
+}
